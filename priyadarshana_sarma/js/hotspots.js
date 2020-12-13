@@ -16,12 +16,12 @@ $(document).ready(function() {
         $("#caption").fadeOut(1800); 
        	$("#slide").fadeOut(1800,
 			function() {
-				imageCounter = (imageCounter + 1) % imageCache.length; //Changing to next image
+			    imageCounter = (imageCounter + 1) % imageCache.length; //Changing to next image
 	        	nextImage = imageCache[imageCounter];
 		    	$("#slide").attr("src", nextImage.src).fadeIn(1000);
 			    $("#caption").text(nextImage.title).fadeIn(1000);		
 			}        	
-           );     
+        );     
     },	
     1000);
 }); 
