@@ -1,6 +1,5 @@
 // cretes the navigation on all three features
 function init_nav_list(){
-    console.log("init");
 
     var nav_items = [
         ["index.html", "Home"],
@@ -9,9 +8,9 @@ function init_nav_list(){
         ["../priyadarshana_sarma/hotspots.html", "Hotspots"],
         ["../priyadarshana_sarma/food_and_drinks.html", "Food and Drinks"],
         ["../priyadarshana_sarma/transportation.html", "Transportation"],
-        ["../gurdesh_cheema/hotel.html", "Accomodation"],
-        ["../gurdesh_cheema/shopping.html", "Shopping"],
-        ["../gurdesh_cheema/maps.html", "Map"],
+        ["../gurdesh_cheema/Hotelss.html", "Accomodation"],
+        ["../gurdesh_cheema/shop.html", "Shopping"],
+        ["../gurdesh_cheema/Maps.html", "Map"],
         ["../chisom_anele/contacts page.html", "Gallery"],
         ["../chisom_anele/help services.html", "Services"],
         ["../chisom_anele/gallery page.html", "Contact Us"],
